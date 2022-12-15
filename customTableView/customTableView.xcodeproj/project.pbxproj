@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E22174F294B632B006FCD96 /* EmreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E22174D294B632B006FCD96 /* EmreTableViewCell.swift */; };
+		1E221750294B632B006FCD96 /* EmreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E22174E294B632B006FCD96 /* EmreTableViewCell.xib */; };
 		1E3F113B29452EC800DACE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F113A29452EC800DACE13 /* AppDelegate.swift */; };
 		1E3F113D29452EC800DACE13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F113C29452EC800DACE13 /* SceneDelegate.swift */; };
 		1E3F113F29452EC800DACE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F113E29452EC800DACE13 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E22174D294B632B006FCD96 /* EmreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmreTableViewCell.swift; sourceTree = "<group>"; };
+		1E22174E294B632B006FCD96 /* EmreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmreTableViewCell.xib; sourceTree = "<group>"; };
 		1E3F113729452EC800DACE13 /* customTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3F113A29452EC800DACE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E3F113C29452EC800DACE13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E22174C294B6306006FCD96 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E22174D294B632B006FCD96 /* EmreTableViewCell.swift */,
+				1E22174E294B632B006FCD96 /* EmreTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		1E3F112E29452EC800DACE13 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		1E3F113929452EC800DACE13 /* customTableView */ = {
 			isa = PBXGroup;
 			children = (
+				1E22174C294B6306006FCD96 /* CustomCell */,
 				1E3F113A29452EC800DACE13 /* AppDelegate.swift */,
 				1E3F113C29452EC800DACE13 /* SceneDelegate.swift */,
 				1E3F113E29452EC800DACE13 /* ViewController.swift */,
@@ -127,6 +141,7 @@
 			files = (
 				1E3F114729452EC900DACE13 /* LaunchScreen.storyboard in Resources */,
 				1E3F114429452EC900DACE13 /* Assets.xcassets in Resources */,
+				1E221750294B632B006FCD96 /* EmreTableViewCell.xib in Resources */,
 				1E3F114229452EC800DACE13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				1E3F113F29452EC800DACE13 /* ViewController.swift in Sources */,
 				1E3F113B29452EC800DACE13 /* AppDelegate.swift in Sources */,
 				1E3F113D29452EC800DACE13 /* SceneDelegate.swift in Sources */,
+				1E22174F294B632B006FCD96 /* EmreTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
